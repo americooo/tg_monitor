@@ -24,7 +24,7 @@ Bu loyiha Telegram guruhini avtomatik monitoring qilish uchun mo‘ljallangan bo
 ---
 
 ## Fayllar tuzilishi
-
+```bash
 project_folder/
 │
 ├─ bot.py # Asosiy bot kodi
@@ -33,7 +33,7 @@ project_folder/
 ├─ run.py # Botni ishga tushirish fayli
 ├─ .env # Muhit o'zgaruvchilari
 └─ tg_monitor.db # SQLite bazasi (agar SQLite ishlatilsa)
-
+```
 yaml
 Copy code
 
